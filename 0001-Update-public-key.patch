@@ -1,0 +1,120 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: ZHANG Yuntian <yuntian@protoducer.com>
+Date: Sun, 4 Sep 2022 20:03:06 +0800
+Subject: [PATCH] Update public key
+
+---
+ debian/proxmox-archive-keyring.install |   1 -
+ debian/proxmox-release-bullseye.gpg    | Bin 1187 -> 1793 bytes
+ debian/proxmox-release-buster.gpg      | Bin 1202 -> 0 bytes
+ 3 files changed, 1 deletion(-)
+ delete mode 100644 debian/proxmox-release-buster.gpg
+
+diff --git a/debian/proxmox-archive-keyring.install b/debian/proxmox-archive-keyring.install
+index c3e0f19..bc5b13f 100644
+--- a/debian/proxmox-archive-keyring.install
++++ b/debian/proxmox-archive-keyring.install
+@@ -1,2 +1 @@
+-debian/proxmox-release-buster.gpg etc/apt/trusted.gpg.d/
+ debian/proxmox-release-bullseye.gpg etc/apt/trusted.gpg.d/
+diff --git a/debian/proxmox-release-bullseye.gpg b/debian/proxmox-release-bullseye.gpg
+index d577ed1cf505d240b06d3fb277806cdd54f2793b..9369268b041aa53e7c8b30b95ebdb3fe0db04aab 100644
+GIT binary patch
+delta 1787
+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
+
+delta 1177
+zcmV;K1ZMkz4x<TwnF0+2U#RHR0T2M)5#sxWJOPz|WNjQD+(erAf6F>C6c|hCW=T1a
+z%&a0WxD7SS@6zaJ1Q}dnjNNXcx48xVi3IW&2Aq1uV4$3SYqzXwP)J`d^RDqnsV339
+z$VT$eU4{<bBKJrT&X%4IxNIA7zl8Vt8gW=(WsaTqfFT=y9jm$E*7=7N3@_(Gu;(C`
+z-TN!6n_CB=lLq0;c-@as<QZI(CQa09dni<dPLFJPtg$DK{vhK5!+SNH?3Y^A1MQ09
+zg(%RP65Zl6iGaMju`CWAc`H@>?}Uu{CGltd#|FImitlG#b_MomU)4{N<Vas#>nOPq
+zu0H@nOfIQ^W1kNAZ|ko)uCPyx<Ea7DyS1a=66^0>X!TnXY-FxP6ZcBoBilZg%g56w
+zC{6G=6lz|F64Dh0@T}H5Vxp&Ff`u5-$;ZHIE7$yrF>4Br-fgL9#xih2bhW2}GdkBO
+zcv{=>4jpqWu29nvnjwJCt_Kl@bGYZPyd;5@p#@-n>ASgunZ3EKN<}*>`8KL@(C`e(
+zp@%wy0h&g**eM)d@^CgQq5kY(SP<5I(*Nv&rGjxxlZd<rW|2hh9{|yjdWO9o9>{FG
+z{T6g6#5<u<TQeqJ#?zSvwFLK(TNAMX@*}PE)<+*|U<H~ZVi5g5kFmillgeavxAdK+
+z`Hn<?=+3l&@ofs72Kj?iE%yxo5di=Jv^r37Z+LBQcpyS`Y;1F7d1W9{Wo%_(b7de)
+zWqBYxaB^>WZEtuja%F5~VRL0baB^>WZEtukV{dIfi2_sv69EbUJ{BPaC=;45gA3M#
+zc%h&l-Akj9ej~qG1p;5F=+pum0|f~Z%mV<E3IZH|-Akj9ej~qGH>(f;tC%2~o_H_v
+z!gczMl*whHsFr%XVG)4Y`LJr}fl0LI9JX#G%CuCAG-%l+B0F3rJh;|z^fiG-5A~P?
+z2-Nd9XuG4_{+3SqwFrmkXPl6;u}-Vvl;*L)`bn<xg9Pe)drYP56tXti+cK7y=j+Gz
+z17-Sum8r~IjhGWN^O)qgjcRIx0|C6)?Kn7MX%Rc7f9S~d7fbR&S5qJ!IfYAI%;^ni
+zPtR+J!G*sgXJF46y!%3-6u!q>M^1%mAxpKHiv<q9$u;d$FVb%!EBLuhnK)#L`XQ?`
+z{ZwIc+%_&Q$qW2peZx{);W0VBhTK!2-D6pQ#pXT%ZTuZ-BaWMy_jHWALfV37MyU;S
+z>7Q+N8qDJez5spLY<~JL1x6Mu0Xl3(NSKu>izL?luX@Zj+}As$0?_ZdlU5&2XO_23
+zqGaUnLBkT*e;ExnJBZ3{oN!t1!dM+1^ee!!!38CrV<Fz)xD6JtjQaE2K_q4sF!wZn
+zSW^8e>^Fl4jCXX?{=em`EglXFF;8r!*YaTWsQN06s{!@@O21BZd<5Bl9`BA>^mM=m
+z++a#^a0++t|I`PrSLdHlxO=n&aXYAbe+fw9rA>_Jcu|8!<znXIK9pC;7f{)WW9Odq
+rrpbzT4EXzNSQl%1*W5^m9b;H$F@%Q@CgrI=PLHw0h*U-^XcmW)ASOAh
+
+diff --git a/debian/proxmox-release-buster.gpg b/debian/proxmox-release-buster.gpg
+deleted file mode 100644
+index efebf1c5fec7ca8522a06f4b42e04b554f9d079c..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+HcmV?d00001
+
+literal 1202
+zcmV;j1Wo&y0u2OP@^=0K5CE#PtzH*^erG>N(h`YFy^<1#%GhkWYn&PUcK8mln{DvA
+zemc%?diZ9uI~#s^Og=|@y0dU<@g_J1z<<BPtWn8{Vk105{#txcmE4*pM;qf9V3Yc*
+zZ%taZ#B!tP>WT5%+|A0-$WtpSP*0|U7468wdnrRAr?$fatadM*LL*-^8Y}g|(v$@K
+zn}DTGZy|Flj+qe5@|S9>_O^wba6F)0M`al>!N<}M_he(b3A_WfrFaqW{M=r3<DnG7
+z$!S<smM7<oy*fF;`bo|38B#d2T?Rs#v%VL|pGlPkJ!SmbwROaV%v}zvhyo9w{cme7
+zlJn(o25(`KHu9@enk|gyR620<lT#@c=<G{0R%9X(pDZ7l56fy8DB}hWtpd#$BVE4(
+zAa4f)^weWQ!`+Rqc)*iUvS#5G;0iw>e5ZL|^#uoGb!XNgi0bQmb9<^%{Us{<qppID
+zbNEF{2Pg5h0s9>eoS`?!NTM3SG9+=aRv7Z!TNwTwQZ~~$?QA6XJYzQMsq3iOaXY+z
+zg3X7Zt@>eXqP>{t%t}<7>v6wpUjBGulmKN&?_{oEo}-pcYQ$zp?KHXuiz}8nPqs#i
+zleG{w+V54CZbJT7ZWu1wk+nu$-zac8>f+u=$j#fRUFfdv^BHX+LJJSUxe#&ln!s5Q
+zlwkwS{Zp-U+J68M0RRECNl<cccx`WZAXaH|bai2DAVqF=X>xCFZDnqBAT};|AW~&)
+zWnpt=AWLO=AUtq#Z+LBQcr9{eY-M3{Wk7IpZ+LBQcrIgaZ9a(tR0I<N2mn47Ap|uv
+zdH6Sh*ZA#UTE%<vfi8+}h~NbRTk>}P0viJb2@=c$00j#P2nPZN6$l9m3jzcd0s{d8
+z9svRufB*^!5PR~0E{bl5;Lv3d0HaA4b5C@n+ay#v^r#-w+aDB49B&JeI*MjT0V=<`
+zEpT_0o{QzAK0XW+{c-~OOsv2v+_u{y35RSNv$3cUY2y6y^{3^{4YxZh%z701sd-+o
+zr*3(d27rcA2$utU>d;o6nLOVJ5vLsX>^g(xymn(;`{|s+sF>~jqg-0UV{-BMVZW|*
+z3Nz^|u+SHhs4{KKb~VB3dM*;ONn|_JXxWA~5#iu`)`;Yb$)P+?MJ!PrN2qBtz5zBm
+z><^9Qg&>4aDd>U~us)hmAHl!Ng6@UjK8UdYz9QR(=?<8T3Msg*&|bO4q&L83WGrsO
+zppvSf<=nf(5<pJikC90|sK8oywQ7(9YSigjlEc%lEw}g8Jl-z7#==cofI$mFS1DzQ
+zrmkJ}k@V!_{lgX!+v2w#Xn4N)Gja+H5xK>zT<IU@hLLP>Wi3D&6A1-zq?&DBTed|(
+zTzaESJ#}PJs5(1RNmVrRCbfI4qj|`}<^|K>@96i0@I)3ao&`W*<!DM2nSpMDjAB?_
+zZ3)G?QEa+=NL2yF+iX1uy-3pPlKmj6ayekh1zi)#t_zqDGidO8mNp*{5E8wk)hIU-
+zy{@nj&p*5lj%r=MEmu(SF}Zmf?OPX_#gveed-T6@AwKBxKi6@-5?^LzSt$&Ep!ft>
+QS%$d}Ac1>LWWW6HVu#o=bN~PV
+
+-- 
+2.37.2
+
